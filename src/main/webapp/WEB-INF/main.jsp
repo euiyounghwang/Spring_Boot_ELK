@@ -103,7 +103,7 @@ else {
 				<li><a href="#n" onclick="loadCenterPage('monitoring_dashboard/server_realtime_transaction', 'Y','검색엔진 Dashboard');" id="a_firstmenu"><span>서버모니터링</span></a>
 					<ul>
 				    	<!--  <li><a href="#n" onclick="loadCenterPage('search_monitoring/search_engine_indices_list?version=6.5.4', 'Y','검색엔진 Dashboard');"><span>검색엔진 Dashboard</span></a></li>-->
-				    	<li><a href="#n" onclick="loadCenterPage('monitoring_dashboard/server_realtime_transaction', 'Y','실시간AI처리상태');"><span>실시간AI처리상태</span></a></li>
+				    	<!-- <li><a href="#n" onclick="loadCenterPage('monitoring_dashboard/server_realtime_transaction', 'Y','실시간AI처리상태');"><span>실시간AI처리상태</span></a></li> -->
 				    	<li><a href="#n" onclick="loadCenterPage('search_monitoring/search_engine_status_list?version=7.6.1', 'Y','검색엔진상태관리');"><span>검색엔진상태관리(가동계 V.7.6.1)</span></a></li>
 				    	<li><a href="#n" onclick="loadCenterPage('chart_management/chart_resource_realtime', 'Y','서버상태관리');"><span>서버상태관리(WAS/AI)</span></a></li>
 				   </ul>

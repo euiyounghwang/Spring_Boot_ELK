@@ -50,11 +50,12 @@ public class ElasearchService {
 		HttpClient httpClient = new DefaultHttpClient();
 		HttpEntity resEntity = null;
 		try {
-//			System.out.println(url);
+			System.out.println(url);
 			HttpGet request = new HttpGet(url);
 //			request.setHeader("Authorization", "Basic " + Base64Coder.encodeString("elastic:gsaadmin"));
 			request.addHeader("Authorization", "Basic ZWxhc3RpYzpnc2FhZG1pbg==");
-			request.addHeader("content-type", "application/json");
+//			request.addHeader("content-type", "application/json");
+			request.addHeader("content-type", "application/x-ndjson");
 			request.addHeader("Accept", "application/json");
 
 			// request.setEntity(params);

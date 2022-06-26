@@ -15,16 +15,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
-import com.test.monitoring.service.MenualDBConnectionService;
 import com.test.monitoring.service.MonitoringService;
 
 @Controller
 class MonitoringController {
 	@Autowired
 	MonitoringService monitoringService;
-	
-	@Autowired
-	MenualDBConnectionService menualDBService;
 	
 //	@Value("${server.running.flag}")
 //	private String server_running_flag = "";
