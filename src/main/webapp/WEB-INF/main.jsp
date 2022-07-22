@@ -68,7 +68,7 @@ else {
 			<%
 					if (is_server_monitoring.equals("Y")) {
 			%>
-			<span class="logo"><a href="#" onclick="$('#a_firstmenu').trigger('click');">모니터링 시스템</a></span>
+			<span class="logo"><a href="#" onclick="$('#a_firstmenu').trigger('click');">Monitoring</a></span>
 			<%
 			} else {
 			%>
@@ -90,9 +90,9 @@ else {
 					if (is_server_monitoring.equals("Y")) {
 			%>
 				<ul>
-				<li><a href="#n" onclick="loadCenterPage('search_monitoring/search_engine_status_list?version=7.6.1', 'Y','검색엔진 검색엔진상태관리');" id="a_firstmenu"><span>서버모니터링</span></a>
+				<li><a href="#n" onclick="loadCenterPage('search_monitoring/search_engine_status_list?version=7.6.1', 'Y','Server Monitoring');" id="a_firstmenu"><span>Search Engine Monitoring</span></a>
 					<ul>
-				    	<li><a href="#n" onclick="loadCenterPage('search_monitoring/search_engine_status_list?version=7.6.1', 'Y','검색엔진상태관리');"><span>검색엔진상태관리(가동계)</span></a></li>
+				    	<li><a href="#n" onclick="loadCenterPage('search_monitoring/search_engine_status_list?version=7.6.1', 'Y','Server Monitoring');"><span>ES Cluster(Prod)</span></a></li>
 				  </ul>
 				</li>
 				</ul>
